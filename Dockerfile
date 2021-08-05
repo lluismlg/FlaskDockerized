@@ -1,5 +1,6 @@
 FROM python:3.6-buster
 
+#Ensure that the python output is sent straight to terminal
 ENV PYTHONUNBUFFERED True
 
 ENV APP_HOME /app
